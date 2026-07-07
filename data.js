@@ -1,26 +1,37 @@
-const coaches=[
+const coaches = [
 {
 id:1,
 name:"Sarah Chen",
-image:"images/coach1.jpg",
 role:"Life Coach",
+image:"images/coach1.jpg",
 description:"Helping professionals achieve work-life balance.",
-bio:"Sarah has 10 years of experience helping executives improve confidence, productivity, and relationships."
+experience:"10 Years",
+location:"New Jersey",
+languages:"English, Spanish",
+rating:"★★★★★",
+specialization:[
+"Career Growth",
+"Confidence",
+"Stress Management",
+"Leadership"
+],
+bio:"Sarah has over ten years of experience helping individuals overcome personal and professional challenges. She specializes in leadership coaching, confidence building, and stress management."
 },
 {
 id:2,
 name:"Marcus Johnson",
-image:"images/coach2.jpg",
 role:"Career Coach",
-description:"Career growth specialist.",
-bio:"Marcus helps professionals transition into leadership roles and build long-term career strategies."
-},
-{
-id:3,
-name:"Elena Rodriguez",
-image:"images/coach3.jpg",
-role:"Mindset Coach",
-description:"Positive mindset expert.",
-bio:"Elena specializes in confidence, resilience, and personal development."
+image:"images/coach2.jpg",
+description:"Career development specialist.",
+experience:"8 Years",
+location:"New York",
+languages:"English",
+rating:"★★★★★",
+specialization:[
+"Resume",
+"Interview",
+"Leadership"
+],
+bio:"Marcus has successfully coached hundreds of professionals to transition into leadership roles and improve career growth."
 }
 ];
