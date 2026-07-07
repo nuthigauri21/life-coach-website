@@ -1,0 +1,11 @@
+@media(max-width:768px){
+.toolbar{
+flex-direction:column;
+}
+.toolbar input{
+width:100%;
+}
+.toolbar select{
+width:100%;
+}
+}
