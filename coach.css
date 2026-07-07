@@ -1,0 +1,52 @@
+.coach-page{
+max-width:1100px;
+margin:40px auto;
+padding:20px;
+}
+.profile{
+display:flex;
+gap:40px;
+background:#fff;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+.profile img{
+width:320px;
+border-radius:12px;
+object-fit:cover;
+}
+.details{
+flex:1;
+}
+.details h1{
+margin-bottom:10px;
+}
+.details h3{
+color:#666;
+margin-bottom:20px;
+}
+.details p{
+line-height:1.7;
+margin-bottom:15px;
+}
+.details ul{
+margin-left:20px;
+margin-bottom:25px;
+}
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#4a148c;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+@media(max-width:768px){
+.profile{
+flex-direction:column;
+}
+.profile img{
+width:100%;
+}
+}
