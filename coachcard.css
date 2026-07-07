@@ -1,0 +1,38 @@
+.coach-card{
+display:flex;
+background:white;
+padding:20px;
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+align-items:center;
+transition:.3s;
+}
+.coach-card:hover{
+transform:translateY(-5px);
+}
+.coach-card img{
+width:140px;
+height:140px;
+border-radius:10px;
+object-fit:cover;
+margin-right:25px;
+}
+.info h2{
+margin-bottom:8px;
+}
+.info h4{
+color:#666;
+margin-bottom:10px;
+}
+.info p{
+margin-bottom:15px;
+line-height:1.6;
+}
+.info a{
+background:#4a148c;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
