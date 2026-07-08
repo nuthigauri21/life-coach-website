@@ -21,9 +21,15 @@ ${coach.specialization.map(item=>`
 <span>${item}</span>
 `).join("")}
 </div>
+<div class="actions">
+<button class="favorite-btn"
+data-id="${coach.id}">
+❤️ Favorite
+</button>
 <a href="coach.html?id=${coach.id}">
 Read More →
 </a>
+</div>
 </div>
 </div>
 `;
