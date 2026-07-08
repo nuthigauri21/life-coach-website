@@ -82,3 +82,12 @@ localStorage.setItem("favorites",JSON.stringify(favorites));
 alert("Coach added to favorites!");
 }
 });
+const modal=document.getElementById("appointmentModal");
+document.querySelectorAll(".btn").forEach(button=>{
+button.onclick=()=>{
+modal.style.display="block";
+}
+});
+document.getElementById("closeModal").onclick=()=>{
+modal.style.display="none";
+}
