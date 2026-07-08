@@ -258,3 +258,15 @@ margin:10% auto;
 padding:30px;
 border-radius:10px;
 }
+#topBtn{
+position:fixed;
+bottom:30px;
+right:30px;
+display:none;
+padding:15px;
+border:none;
+background:#4a148c;
+color:white;
+border-radius:50%;
+cursor:pointer;
+}
