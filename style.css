@@ -128,3 +128,26 @@ margin-right:15px;
 background:white;
 color:#4a148c;
 }
+.top-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.rating{
+background:#ffd54f;
+padding:5px 10px;
+border-radius:20px;
+font-size:14px;
+}
+.tags{
+margin:15px 0;
+}
+.tags span{
+display:inline-block;
+background:#ede7f6;
+color:#4a148c;
+padding:6px 12px;
+border-radius:20px;
+margin:5px;
+font-size:13px;
+}
