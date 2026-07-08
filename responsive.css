@@ -28,4 +28,12 @@ width:100%;
 .toolbar select{
 width:100%;
 }
+.coach-card{
+flex-direction:column;
+text-align:center;
+}
+.coach-card img{
+width:180px;
+height:180px;
+}
 }
