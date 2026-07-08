@@ -36,4 +36,26 @@ text-align:center;
 width:180px;
 height:180px;
 }
+.hero{
+padding:40px 20px;
+text-align:center;
+}
+.hero h1{
+font-size:30px;
+}
+.hero-buttons{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+.hero-buttons button{
+width:100%;
+}
+.stats{
+grid-template-columns:1fr 1fr;
+}
+.top-row{
+flex-direction:column;
+gap:10px;
+}
 }
