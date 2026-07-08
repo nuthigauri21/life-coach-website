@@ -8,11 +8,19 @@ container.innerHTML += `
 <div class="coach-card">
 <img src="${coach.image}" alt="${coach.name}">
 <div class="info">
+<div class="top-row">
 <h2>${coach.name}</h2>
+<span class="rating">${coach.rating}</span>
+</div>
 <h4>${coach.role}</h4>
+<p>📍 ${coach.location}</p>
+<p>💼 ${coach.experience} Experience</p>
 <p>${coach.description}</p>
-<p><strong>Experience:</strong> ${coach.experience}</p>
-<p>${coach.rating}</p>
+<div class="tags">
+${coach.specialization.map(item=>`
+<span>${item}</span>
+`).join("")}
+</div>
 <a href="coach.html?id=${coach.id}">
 Read More →
 </a>
