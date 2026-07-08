@@ -53,3 +53,26 @@ const sidebar = document.getElementById("sidebar");
 menuBtn.addEventListener("click", () => {
 sidebar.classList.toggle("show");
 });
+const darkBtn = document.getElementById("darkModeBtn");
+if(localStorage.getItem("theme")==="dark"){
+document.body.classList.add("dark");
+}
+darkBtn.addEventListener("click",()=>{
+document.body.classList.toggle("dark");
+if(document.body.classList.contains("dark")){
+localStorage.setItem("theme","dark");
+}else{
+localStorage.setItem("theme","light");
+}
+});
+document.addEventListener("click",function(e){
+if(e.target.classList.contains("favorite-btn")){
+const id=e.target.dataset.id;
+let favorites=JSON.parse(localStorage.getItem("favorites"))||[];
+if(!favorites.includes(id)){
+favorites.push(id);
+}
+localStorage.setItem("favorites",JSON.stringify(favorites));
+alert("Coach added to favorites!");
+}
+});
