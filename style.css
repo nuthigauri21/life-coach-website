@@ -198,3 +198,34 @@ opacity:1;
 transform:translateY(0);
 }
 }
+.dark-btn{
+padding:10px;
+background:white;
+border:none;
+border-radius:50%;
+cursor:pointer;
+font-size:18px;
+}
+body.dark{
+background:#1f1f1f;
+color:white;
+}
+body.dark header{
+background:#111;
+}
+body.dark .sidebar{
+background:#2c2c2c;
+}
+body.dark .coach-card{
+background:#333;
+color:white;
+}
+body.dark .stats div{
+background:#333;
+}
+body.dark .toolbar input,
+body.dark .toolbar select{
+background:#444;
+color:white;
+border:1px solid #666;
+}
