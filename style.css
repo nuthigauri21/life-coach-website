@@ -229,3 +229,16 @@ background:#444;
 color:white;
 border:1px solid #666;
 }
+.actions{
+display:flex;
+gap:10px;
+margin-top:15px;
+}
+.favorite-btn{
+padding:10px;
+border:none;
+background:#ffebee;
+color:red;
+cursor:pointer;
+border-radius:8px;
+}
